@@ -1,0 +1,10 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-MyFitnessClass/Pods-MyFitnessClass.development.xcconfig"
+#include "Pods/Target Support Files/Pods-MyFitnessClassTests/Pods-MyFitnessClassTests.development.xcconfig"
+
+ENVIRONMENT = Development
+DISPLAY_NAME = MyFitnessClassQA
+BASE_URL = https:/$()/qa-baseurl.com
+SERVICES_KEY = some-key
